@@ -6,7 +6,7 @@ import Config
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :hello_phoenix, HelloPhoenix.Repo,
-  username: "postgres",
+  username: "phoenix",
   password: "postgres",
   hostname: "localhost",
   database: "hello_phoenix_test#{System.get_env("MIX_TEST_PARTITION")}",

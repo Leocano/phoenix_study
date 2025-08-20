@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :hello_phoenix, HelloPhoenix.Repo,
-  username: "postgres",
+  username: "phoenix",
   password: "postgres",
   hostname: "localhost",
   database: "hello_phoenix_dev",
