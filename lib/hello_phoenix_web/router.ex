@@ -21,6 +21,13 @@ defmodule HelloPhoenixWeb.Router do
     get "/", PageController, :home
     get "/hello", HelloPhoenixController, :index
     get "/hello/:messenger", HelloPhoenixController, :show
+
+    # Resources examples:
+    # resources "/users", UserController do
+    #   resources "/posts", PostController, only: [:index, :show]
+    # end
+
+    # resources "/comments", CommentController, except: [:delete]
   end
 
   # Other scopes may use custom stacks.
