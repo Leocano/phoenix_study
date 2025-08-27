@@ -21,6 +21,7 @@ defmodule HelloPhoenixWeb.Router do
     get "/", PageController, :home
     get "/hello", HelloPhoenixController, :index
     get "/hello/:messenger", HelloPhoenixController, :show
+    get "/redirect_test", PageController, :redirect_test
 
     # Resources examples:
     # resources "/users", UserController do
